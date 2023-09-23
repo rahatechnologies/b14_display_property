@@ -1,0 +1,39 @@
+/* 
+
+box-sizing: border-box
+default content box
+
+*/
+
+.box_1, .box_2, .box_3{
+
+    width: 200px ;
+    height: 200px;
+    color: white;
+    /* font-size: 1.5rem; */
+    font-size: 24px;
+}
+
+.box_1{
+    background: red;
+    padding: 20px;   
+
+    /*  
+    border gets priority here
+    */
+    box-sizing: border-box;
+    
+
+}
+.box_2{
+    background: blue;
+}
+.box_3{
+    background: green;
+    padding: 20px;   
+
+/*  by default browser is applying this property */
+/* content gets priority here */
+    box-sizing: content-box;
+
+}
