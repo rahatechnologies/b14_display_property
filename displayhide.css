@@ -1,0 +1,47 @@
+/* 
+
+display:none - 
+rendering turn off
+
+1. remove element from the flow, 
+2. hide element,
+3. collapse the space
+
+
+opacity: 0, 
+transparency achieve
+
+visibility: hidden -
+ 
+1. hides element 
+2. preserves the space
+
+*/
+
+div{
+    background: #f15025;
+    margin: 10px;
+    color: white;
+    font-size: 1.3rem;
+}
+
+h1{
+    margin-top: 0;
+}
+.none{
+    display: none;
+}
+
+.opacity-1{
+    opacity: 1;
+}
+.opacity-5{
+    opacity: 0.5;
+}
+.opacity-0{
+    opacity: 0;
+}
+
+.visibility{
+   visibility: hidden; 
+}
